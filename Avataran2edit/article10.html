@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="article10.css" rel="stylesheet">
+    <link href="font-awesome.min.css" rel="stylesheet">
+    <title>World Cup</title>
+</head>
+<body>  
+    <img src="worldcup.jpeg" id="wc19"> 
+   
+        <h2>ICC World Cup </h2> 
+         <span id="author">- Aashika Singh</p> 
+
+             <div class="article">
+             <p>   The ICC Cricket World Cup is the international championship of One Day International 
+                 (ODI) cricket. The event is organised by the sport's governing body, the International 
+                 Cricket Council (ICC), every four years, with preliminary qualification rounds leading 
+                 up to a finals tournament. The tournament is one of the world's most viewed sporting events
+                  and is considered the "flagship event of the international cricket calendar" by the ICC. <br> <br>
+                 <span id="about12"> ABOUT TROPHY:</span> 
+                The ICC Cricket World Cup Trophy is presented to the winners of the World Cup. The current trophy was created for the 1999 championships, and was the first permanent prize in the tournament's history. Prior to this, different trophies were made for each World Cup. The trophy was designed and produced in London by a team of craftsmen from Garrard & Co over a period of two months…
+                The current trophy is made from silver and gilt, and features a golden globe held up by three silver columns. The columns, shaped as stumps and bails, represent the three fundamental aspects of cricket: batting, bowling and fielding, while the globe characterises a cricket ball.
+            </p>  
+        </div>
+        <div ng-app="myApp">
+            <button class="like-project" 
+                ng-controller="check" 
+                ng-click="count(1) || changeClass() || disableClick()" 
+                ng-class="class" 
+                ng-disabled="isDisabled" 
+                ng-model="isDisabled"> 
+        
+                <i class="icon icon-heart-bts"><span> {{ count }} </span></i>
+                
+            </button>
+        </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <a href="#" class="info fa fa-info-circle"><span>What's Avataran? </span></a>
+        <div class="inner">
+            <div class="content">
+                <h3></h3>
+                <p>Basically,a bunch of happy,creative people collaborate each month to deliver a month's issue to you. Feel strongly about something? Write to us! Have a hidden talent? Mail us. We will post your articles and photos here. Let's make this a community of fierce females. </p>
+            </div>
+
+            <div class="copyright">
+                <h3>Find us here!</h3>
+                <ul class="icons">
+                    
+                    <li><a href="https://www.facebook.com/AvataranTheEMagazineSocietyOfIgdtuw/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/avataran.igdtuw/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+
+    </footer>
+
+    	<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/article10.js"></script>
+</body>
+</html>
